@@ -4,7 +4,7 @@ var a=0;
 var b=1;
 var rs= new stream.Readable();
 rs._read=function(){
- // if(b<144){
+ if(b<144){
    // setTimeout(function(){
       var c =a+b;
       a=b;
@@ -12,9 +12,9 @@ rs._read=function(){
       rs.push(''+c );
   //  },100);
 
- // }else{
- //   this.push(null);
- // }
+  }else{
+   rs.push(null);
+  }
   
 };
 module.exports=rs;
