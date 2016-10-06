@@ -1,0 +1,26 @@
+{
+  "name": "dashing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "async.js",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dashingshakeel/Nodejs-learning.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dashingshakeel/Nodejs-learning/issues"
+  },
+  "homepage": "https://github.com/dashingshakeel/Nodejs-learning#readme"
+}
